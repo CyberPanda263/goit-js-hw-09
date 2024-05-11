@@ -80,7 +80,7 @@ const addGallery = `${addimage.join('')}`;
 gallery.innerHTML = addGallery;
 
 import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
+import 'simplelightbox/dist/simple-lightbox.css';
 gallery = new SimpleLightbox('.gallery a', {
   captionDelay: 200,
 });
